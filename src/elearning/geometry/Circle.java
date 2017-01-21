@@ -44,7 +44,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    public void displayCircleData() {
+    public void displayShapeData() {
         System.out.print("center: ");
         getPoints()[0].displayCoords();
         System.out.println("radius: " + getRadius());

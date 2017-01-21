@@ -9,7 +9,7 @@ package elearning.geometry;
  *
  * @author kostas
  */
-public class Shape {
+public abstract class Shape {
     // member variables, constants
     private Point[] points;
 
@@ -30,15 +30,10 @@ public class Shape {
         points = p;
     }
     
-    public double area() {
-        return 0.0;
-    }
+    abstract public double area();
     
-    public double perimeter() {
-        return 0.0;
-    }
+    abstract public double perimeter();
     
-    public String getName() {
-        return "";
-    } 
+    abstract public String getName();
+    abstract public void displayShapeData();
 }

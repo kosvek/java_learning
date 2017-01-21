@@ -52,7 +52,7 @@ public class Rectangle extends Shape {
         return NAME;
     }
 
-    public void displayRectangleData() {
+    public void displayShapeData() {
         System.out.print("point A: ");
         getPoints()[0].displayCoords();
         System.out.print("point B: ");
