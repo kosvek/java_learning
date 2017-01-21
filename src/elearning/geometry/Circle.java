@@ -9,6 +9,7 @@ public class Circle extends Shape {
 // member variables, constants
     private int radius;
     public static final double PI = 3.14159;
+    public static final String NAME = "Circle";
 
     // methods
     
@@ -33,6 +34,10 @@ public class Circle extends Shape {
     // getters/setters
     public int getRadius() {
         return radius;
+    }
+    
+    public String getName() {
+        return NAME;
     }
 
     public void setRadius(int radius) {

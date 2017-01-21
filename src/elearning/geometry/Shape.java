@@ -37,4 +37,8 @@ public class Shape {
     public double perimeter() {
         return 0.0;
     }
+    
+    public String getName() {
+        return "";
+    } 
 }

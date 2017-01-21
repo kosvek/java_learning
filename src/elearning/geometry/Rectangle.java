@@ -7,6 +7,8 @@ package elearning.geometry;
 
 public class Rectangle extends Shape {
     // member variables
+    public static final String NAME = "Rectangle";
+
 
     // private Point[] points;
 // methods
@@ -44,6 +46,10 @@ public class Rectangle extends Shape {
 
     public int getHeight() {
         return getPoints()[1].getY() - getPoints()[2].getY();
+    }
+    
+    public String getName() {
+        return NAME;
     }
 
     public void displayRectangleData() {
